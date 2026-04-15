@@ -1,0 +1,110 @@
+ /* Define the color variables based on the image */
+        :root {
+            --primary-teal: #3ba68b;
+            --bg-teal: #3ba68b;
+            --card-bg: #f2f2f2;
+            --input-bg: #e0e0e0;
+            --text-gray: #757575;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg-teal);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .signup-container {
+            background-color: var(--card-bg);
+            width: 150rem;
+            max-width: 450px;
+            padding: 40px;
+            border-radius: 30px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: var(--primary-teal);
+            font-size: 42px;
+            margin-top: 0;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+
+        .form-group {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            color: var(--primary-teal);
+            font-weight: 700;
+            font-size: 14px;
+            margin-bottom: 8px;
+            margin-left: 15px;
+        }
+
+        input {
+            width: 100%;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 50px;
+            background-color: var(--input-bg);
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            outline: none;
+        }
+
+        input::placeholder {
+            color: #a0a0a0;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            background-color: var(--primary-teal);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background-color: #2d826c;
+        }
+
+        .footer-text {
+            margin-top: 25px;
+            font-size: 14px;
+            color: var(--text-gray);
+            font-weight: 600;
+        }
+
+        .footer-text a {
+            color: var(--primary-teal);
+            text-decoration: none;
+        }
+
+        .footer-text p {
+            margin: 10px 0;
+        }
+
+        /* Mobile responsive adjustments */
+        @media (max-width: 480px) {
+            .signup-container {
+               width: 100%;
+                margin: 20px;
+                padding: 30px 20px;
+            }
+        }
