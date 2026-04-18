@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap");
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #f7f5f0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.navbar h1 {
+  font-family: Unbounded;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 5px;
+}
+
+.nav-links a {
+  margin-right: 20px;
+}
+
+.nav-links button {
+  width: 150px;
+  height: 45px;
+  font-family: DM Sans;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.nav-links .home-btn:hover {
+  background-color: #c84b2f;
+}
+
+.nav-links .home-btn:active {
+  background-color: #c84b2f;
+}
+
+.horizontal-line {
+  margin-top: 40px;
+}
+
+.lost-items {
+  margin-bottom: 100px;
+}
+
+.lost-items h1 {
+  font-family: DM Serif Display;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.search-bar input {
+  width: 1300px;
+  margin-left: 30px;
+  background-color: #ffffff;
+}
+
+.pictures {
+  display: flex;
+}
+
+.pictures .card {
+  margin-left: 30px;
+  margin-top: 20px;
+  height: 650px;
+}
+
+.pictures .top {
+  display: flex;
+}
+
+.pictures .card-title {
+  margin-top: 20px;
+  font-family: DM Sans;
+  font-size: 15px;
+}
+
+.pictures .pic-user {
+  height: 70px;
+  width: 60px;
+}
+
+.pictures .card-subtitle {
+  margin-left: 60px;
+  margin-top: -25px;
+  font-size: 12px;
+  font-family: DM Sans;
+}
+
+.pictures .card-text {
+  background-color: #e5e5e5;
+  padding: 10px;
+  border-radius: 10px;
+  color: #737373;
+  font-family: DM Sans;
+  font-size: 13px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.pictures .wallet-on-the-floor img {
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.pictures .report button {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  color: #ffffff;
+  font-family: DM Sans;
+  font-size: 13px;
+  background-color: #c84b2f;
+}
+
+/* ==== FOOTER ==== */
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  font-family: DM Sans;
+  font-size: 15px;
+}
+
+.footer p {
+  color: #000000;
+}
+
+.footer span {
+  color: #888888;
+}
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap");
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #f7f5f0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.navbar h1 {
+  font-family: Unbounded;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 5px;
+}
+
+.nav-links a {
+  margin-right: 20px;
+}
+
+.nav-links button {
+  width: 150px;
+  height: 45px;
+  font-family: DM Sans;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.nav-links .home-btn {
+  border: 1px solid #c84b2f;
+  color: #c84b2f;
+}
+
+.nav-links .home-btn:hover {
+  background-color: #c84b2f;
+  color: #ffffff;
+}
+
+.nav-links .report-btn {
+  background-color: #c84b2f;
+  color: #ffffff;
+}
+
+.nav-links .report-btn:hover {
+  background-color: #ae5844;
+  color: #ffffff;
+}
+.horizontal-line {
+  margin-top: 40px;
+}
+
+.lost-items {
+  margin-bottom: 100px;
+}
+
+.lost-items h1 {
+  font-family: DM Serif Display;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.search-bar input {
+  width: 1300px;
+  margin-left: 30px;
+  background-color: #ffffff;
+}
+
+.pictures {
+  display: flex;
+}
+
+.pictures .card {
+  margin-left: 30px;
+  margin-top: 20px;
+  height: 650px;
+  width: 40rem;
+}
+
+.pictures .top {
+  display: flex;
+}
+
+.pictures .card-title {
+  margin-top: 20px;
+  font-family: DM Sans;
+  font-size: 15px;
+}
+
+.pictures .pic-user {
+  height: 70px;
+  width: 60px;
+}
+
+.pictures .card-subtitle {
+  margin-left: 60px;
+  margin-top: -25px;
+  font-size: 12px;
+  font-family: DM Sans;
+}
+
+.pictures .card-text {
+  background-color: #e5e5e5;
+  padding: 10px;
+  border-radius: 10px;
+  color: #737373;
+  font-family: DM Sans;
+  font-size: 13px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.pictures .wallet-on-the-floor img {
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.pictures .report button {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  font-family: DM Sans;
+  font-size: 15px;
+  background-color: #c84b2f;
+  color: #ffffff;
+}
+
+/* ==== FOOTER ==== */
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  font-family: DM Sans;
+  font-size: 15px;
+}
+
+.footer p {
+  color: #000000;
+}
+
+.footer span {
+  color: #888888;
+}
+
+/* ==== RESPONSIVENESS ==== */
+@media (max-width: 992px) {
+    .nav-links{
+        margin-right: 20px;
+    }
+  .pictures .card-text {
+    background-color: #e5e5e5;
+    padding: 10px;
+    border-radius: 10px;
+    color: #737373;
+    font-family: DM Sans;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+
+  .search-bar input {
+    width: 890px;
+  }
+
+  .pictures .card {
+    width: 430px;
+  }
+
+  .pictures .card .report button {
+    height: 50px;
+  }
+}
+@media (max-width: 868px) {
+  .pictures .card-text {
+    background-color: #e5e5e5;
+    padding: 10px;
+    border-radius: 10px;
+    color: #737373;
+    font-family: DM Sans;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+
+  .search-bar input {
+    width: 785px;
+  }
+.pictures .card {
+    width: 380px;
+  }
+
+  .pictures .card .report button {
+    height: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-bar input {
+    width: 360px;
+  }
+
+  .pictures {
+    display: grid;
+  }
+
+  .pictures .card {
+    width: 360px;
+  }
+
+  .pictures .card .report button {
+    height: 50px;
+  }
+}
